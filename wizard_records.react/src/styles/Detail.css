@@ -1,0 +1,120 @@
+﻿﻿.button-cart {
+    background-color: #4CAF50;
+    bottom: 30px;
+    position: absolute;
+    right: 30px; 
+}
+
+    .button-cart:hover {
+        background-color: #5ed162;
+    }
+
+.button-cancel, .button-delete {
+    background-color: #f44336;
+}
+
+    .button-cancel:hover, .button-delete:hover {
+        background-color: #ff5b4f;
+    }
+
+.button-edit, .button-save {
+    background-color: #008CBA;
+    margin: 0 10px 0 0;
+}
+
+    .button-edit:hover, .button-save:hover {
+        background-color: #20add8;
+    }
+
+.button-unavailable {
+    background-color: red;
+}
+
+    .button-unavailable:hover {
+        background-color: #ff5b4f;
+    }
+
+.detail-container {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    margin: 20px;
+    min-width: 445px;
+    padding: 20px;
+    position: relative;
+}
+
+    .detail-container a {
+        text-decoration: none;
+        padding: 20px 0;
+        color: #333;
+    }
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+}
+
+    .detail-content button {
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+.detail-image img {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width: 400px;
+}
+    
+.detail-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.detail-price {
+    font-family: Centaur;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.edit-delete-container, .save-cancel-container {
+    display: flex;
+    margin: 20px 0;
+} 
+
+.price-cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-label-container {
+    font-style: italic;
+    font-family: Centaur;
+    font-weight: bold;
+    font-size: 25px;
+}
+.artist-link:hover{
+    color: darkred;
+}

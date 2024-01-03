@@ -1,0 +1,59 @@
+/* PreviousOrderPage.css */
+
+.cancel-button {
+    max-height: 40px;
+    padding: 10px 20px;
+    border: 2px solid #AA0000; /* Use the same color as your primary button for consistency */
+    background-color: transparent;
+    color: #AA0000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #AA0000;
+    color: white;
+}
+
+.cancel-button-disabled {
+    max-height:40px;
+    padding: 10px 20px;
+    border: 2px solid #AA0000; /* Use the same color as your primary button for consistency */
+    background-color: transparent;
+    color: #AA0000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex: 100%;
+    flex-flow: wrap-reverse;
+}
+.test {
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+.POP-card {
+    max-width:400px;
+    position: relative !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    margin: 10px;
+}
+.POP-card:hover {
+    box-shadow: 0 0 0 3px darkred;
+}
+.POP-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* The first column for the form and second for future content */
+    gap: 1em; /* Space between the grid columns */
+}

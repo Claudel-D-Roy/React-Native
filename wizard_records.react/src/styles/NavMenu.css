@@ -1,0 +1,101 @@
+header {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.slogan {
+    font-family: 'PatrenaRolane';
+    font-size: calc(20px + (30) * ((100vw - 320px) / (1920 - 320)));
+    color: white;
+}
+
+.mobile {
+    display: none;
+}
+
+/* if mobile device max width 576px */
+@media only screen and (max-device-width: 576px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-fluid {
+        justify-content: center !important;
+    }
+}
+
+/* Navbar styles */
+header {
+    background-color: darkred;
+}
+
+.hero-banner {
+    background-color: darkred;
+}
+/* NavbarBrand styles */
+header .navbar-brand {
+    font-size: 24px;
+}
+
+/* NavItem styles */
+header .nav-item {
+    margin-right: 10px;
+}
+
+header .nav-link {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .form-control {
+    border-color: white;
+    border-radius: 20px;
+}
+
+header .input-group-append button {
+    background-color: darkred;
+    border-color: white;
+    border-radius: 0 20px 20px 0; /* Rounded on the right side, flat on the left */
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: inline-block
+}
+
+    header .input-group-append button:hover {
+        background-color: #a10000;
+    }
+    
+/* Mobile responsive styles */
+@media (max-width: 576px) {
+    header .navbar-toggler {
+        margin-right: 0;
+    }
+
+    header .navbar-collapse {
+        background-color: darkred;
+        padding: 10px;
+    }
+
+    header .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        header .navbar-nav .nav-item {
+            margin: 10px 0;
+        }
+}

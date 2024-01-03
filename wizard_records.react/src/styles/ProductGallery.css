@@ -1,0 +1,180 @@
+﻿.button:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 97.5%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+#dropdown-availability {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #24262b;
+    color: #E4E6Eb;
+}
+
+#dropdown-genre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #24262b;
+    color: #E4E6Eb;
+}
+
+#dropdown-condition {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #24262b;
+    color: #E4E6Eb;
+}
+
+#dropdown-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #24262b;
+    color: #E4E6Eb;
+}
+
+#dropdown-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #24262b;
+    color: #E4E6Eb;
+}
+
+.no-results {
+    text-align: center;
+    margin: 20px;
+}
+
+.page-button {
+    margin: 4px;
+    width: 150px;
+    align-items: center !important;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 18px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    outline: none;
+    overflow: hidden;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .page-button:hover {
+        box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+        opacity: .85;
+    }
+
+    .page-button:active {
+        outline: 0;
+    }
+
+.pagination {
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.right {
+    text-align: right;
+}
+
+.sort-bar {
+    float: left;
+}
+
+@media (max-width: 420px) {
+    .page-button {
+        height: 48px;
+    }
+}
+
+.page-number {
+    color: black; 
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    transition: color 0.2s; 
+}
+
+.current-page {
+    color: darkred;
+    text-decoration:underline;
+}
+
+.page-number:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+/* CSS pour les points de suspension */
+span:contains("...") {
+    font-weight: bold;
+}
+.entete-allProducts{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+#add-item{
+    float:right;
+    margin-right: 30px;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+    #add-item:hover{
+        background-color: #5ed162;
+    }

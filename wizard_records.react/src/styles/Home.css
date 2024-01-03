@@ -1,0 +1,179 @@
+﻿﻿.row {
+    padding-top: 10px;
+}
+
+.add-product-form {
+    padding: 0 0 20px;
+}
+
+.card-album {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.card-album, .card-artist {
+    transition: color 0.3s ease;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-artist {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-basket {
+    border: solid 2px #24262b;
+    border-radius: 8px;
+    background-color: forestgreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.75rem;
+    color: white !important;
+    white-space: nowrap;
+}
+
+    .card-basket:hover {
+        background-color: #00cc00;
+        color: white !important;
+    }
+
+.card-basket, .card-price {
+    text-align: right;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-100:hover {
+    box-shadow: 0 0 0 3px darkred;
+}
+
+.card-divider {
+    margin: 0 5px;
+}
+
+.card-href {
+    border-radius: 8px;
+    text-decoration: none;
+    color: #24262b;
+}
+        .card-href:hover .card-img-format {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card-href:hover .card-img-cover {
+            transition: transform 0.3s ease;
+            transform: translate(31.5%, 10%) scale(1.05);
+        }
+
+        .card-href:hover .card-artist,
+        .card-href:hover .card-price,
+        .card-href:hover .card-subtitle {
+            color: darkred;
+        }
+
+.card-img-cover {
+    position: absolute;
+    transition: transform 0.3s ease;
+    transform: translate(31.5%, 10%);
+    top: 0;
+    left: 0;
+    height: auto;
+    max-width: 54.5%;
+    height: contain;
+}
+
+.card-img-format {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.card-info {
+    flex-grow: 2;
+}
+
+.card-info, .card-purchase {
+    flex: 1;
+}
+
+.card-price {
+    font-size: 1.25rem;
+}
+
+.card-purchase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-unavailable {
+    position: relative;
+    background-color: red;
+}
+
+    .card-unavailable:hover {
+        background-color: transparent;
+        color: transparent;         
+    }
+    
+        .card-unavailable:hover::after {
+            background-color: rgb(255, 64, 64);
+            border-radius: 5px;
+            content: "Order?";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+.card-width {
+    width: 100%;
+}
+
+.divider {
+    height: 2px;
+    background-color: #333;
+}
+
+.partners img {
+    width: 300px;
+    max-width: 150px;
+    max-height: 100px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .section-category a {
+        text-decoration: none;
+        color: #24262b;
+    }
+
+.slogan {
+    font-family: 'PatrenaRolane';
+    font-size: calc(20px + (95 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+h3 a:hover{
+    color: darkred;
+}
