@@ -148,8 +148,7 @@ namespace WizardRecords.Api.Repositories
             }
         }
 
-        //Faire en sorte que quand l'item est acheter il disparait de la bd !!!
-        //Ca va se faire dans le formulaire de commande
+    
 
 
 
